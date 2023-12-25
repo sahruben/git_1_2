@@ -1,9 +1,9 @@
-public class Employee {
+public class Person {
     public  String firstName;
 
     public String lastName;
 
-    public  Employee(String firstName, String lastName){
+    public  Person(String firstName, String lastName){
         this.firstName = firstName;
         this.lastName = lastName;
     }
