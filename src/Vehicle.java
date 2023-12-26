@@ -1,8 +1,8 @@
 public class Vehicle {
 
-    private String brand;
+    protected String brand;
 
-    private int year;
+    protected int year;
 
     public Vehicle(String brand, int year){
         this.brand = brand;
