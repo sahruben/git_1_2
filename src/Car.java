@@ -13,4 +13,9 @@ public class Car extends Vehicle {
 
 
     }
+    @Override
+    public void displayInfo(){
+        super.displayInfo();
+        System.out.println(this.model);
+    }
 }
